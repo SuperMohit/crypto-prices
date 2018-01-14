@@ -1,6 +1,6 @@
 # crypto-prices
 Backend Code:
-* Backend code consists of Spring Boot App, fetching live data from https://www.alphavantage.co website, while historical information is extracted using <> and inserted into elastic search node.
+* Backend code consists of Spring Boot App, fetching live data from https://www.alphavantage.co website, while historical information is extracted using python script import_dump.py and inserted into elastic search node.
 
 * Each of the crypto types are stored in the individual indices.
 
